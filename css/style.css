@@ -1,0 +1,135 @@
+body {
+    background-image: linear-gradient(grey,black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(50, 50, 50, 50%);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-size: 150%;
+    padding: 10px 3%;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.header a:hover {
+    color: red;
+    background-color: rgba(35, 35, 35, 100%);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.header a.button-active {
+    color: green;
+    background-color: rgba(35, 35, 35, 100%);
+    transition: all 0.2s;
+}
+
+.header a.button-active:hover {
+    color: red;
+    background-color: rgba(35, 35, 35, 100%);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.header .banner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header .Title {
+    font-size: 72px;
+    position: absolute;
+    bottom: 0%;
+    color: black;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.header .banner img {
+    object-fit: cover;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    height: 25vh;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.header .navbar {
+    padding: 1%;
+    display: flex;
+    padding: 3%;
+    padding-bottom: 0%;
+    justify-content: space-evenly;
+}
+
+.Home-Active, .Projects-Active, .About-Active, .Contact-Active {
+    height: auto;
+    min-height: 55vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(50, 50, 50, 50%);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Home, .Projects, .About, .Contact {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.main {
+    height: inherit;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-decoration: none;
+    display: inherit;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main img {
+    border-radius: 50px;
+    object-fit: cover;
+    min-width: 50px;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main h1 {
+    font-size: 48px;
+}
+
+.main p {
+    font-size: 18px;
+}
+
+.main a {
+    color: red;
+}
